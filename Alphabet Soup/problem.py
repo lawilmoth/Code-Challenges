@@ -6,7 +6,7 @@ Input: ""hooplah""
 Output: ahhloop
 """
 def alphabet_soup(word:str) ->str:
-    
+    pass
 
 
 print(alphabet_soup("Good Luck!"))
