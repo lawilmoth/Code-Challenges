@@ -15,7 +15,8 @@ class TestSolution(unittest.TestCase):
                         )
         
         self.assertEqual(ab_check('Aura'),
-                        True)
+                        True,
+                        f'Expected "True", but got {ab_check("Aura")}')
 
 if __name__ == "__main__":
     unittest.main()
